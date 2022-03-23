@@ -23,7 +23,7 @@ p {
 }
 
 .circle {
-    background: #262f38;
+    background: #3c4752;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -31,18 +31,23 @@ p {
 }
 
 .circles {
-    background: #262f38;
+    background: #3c4752;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     display: inline-block;
-    margin: 10px 3.5%;
+    margin: 10px 0;
     position: relative;
-    color: #757b87;
+    color: hsl(216, 12%, 54%);
     font-family: 'Overpass', sans-serif;
     font-weight: 400;
     text-align: center;
     line-height: 40px;
+}
+
+.circles-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .message-box {
@@ -66,7 +71,7 @@ p {
     padding: 8px 135px;
     text-decoration: none;
     letter-spacing: 2px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .myButton:hover {
