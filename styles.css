@@ -38,6 +38,11 @@ p {
     display: inline-block;
     margin: 10px 3.5%;
     position: relative;
+    color: #757b87;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 40px;
 }
 
 .message-box {
@@ -82,4 +87,14 @@ div.circle {
     text-align: center;
     display: table-cell;
     vertical-align: middle;
+}
+
+.circle-4:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 12%, 63%);
+}
+
+.circle-5:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
 }
