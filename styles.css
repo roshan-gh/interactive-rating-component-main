@@ -1,0 +1,53 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    text-align: center;
+}
+
+h3 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    color: #757b87;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 0.90rem;
+}
+
+h3,
+p {
+    text-align: left;
+}
+
+.circle {
+    background: #262f38;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.circles {
+    background: #262f38;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.submit-button {
+    display: block;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.message-box {
+    background: hsl(213, 19%, 18%);
+    border-radius: 10%;
+    width: 25%;
+    height: 300px;
+    margin: 150px auto 0;
+    padding: 30px;
+    line-height: 1.5rem;
+}
