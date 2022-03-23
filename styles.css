@@ -7,13 +7,14 @@ h3 {
     color: hsl(0, 0%, 100%);
     font-family: 'Overpass', sans-serif;
     font-weight: 700;
+    font-size: 1.5rem;
 }
 
 p {
     color: #757b87;
     font-family: 'Overpass', sans-serif;
     font-weight: 400;
-    font-size: 0.90rem;
+    font-size: 15px;
 }
 
 h3,
@@ -24,30 +25,61 @@ p {
 .circle {
     background: #262f38;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+    position: relative;
 }
 
 .circles {
     background: #262f38;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     display: inline-block;
-}
-
-.submit-button {
-    display: block;
-    background-color: hsl(25, 97%, 53%);
-    color: hsl(0, 0%, 100%);
+    margin: 10px 3.5%;
+    position: relative;
 }
 
 .message-box {
     background: hsl(213, 19%, 18%);
     border-radius: 10%;
     width: 25%;
-    height: 300px;
+    height: 320px;
     margin: 150px auto 0;
     padding: 30px;
     line-height: 1.5rem;
+}
+
+.myButton {
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 28px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    padding: 8px 135px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.myButton:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+div.circle {
+    min-height: 40px;
+    min-width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
 }
