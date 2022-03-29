@@ -54,7 +54,7 @@ p {
     background: hsl(213, 19%, 18%);
     border-radius: 10%;
     width: 25%;
-    height: 320px;
+    height: 330px;
     margin: 150px auto 0;
     padding: 30px;
     line-height: 1.5rem;
@@ -63,15 +63,16 @@ p {
 .myButton {
     background-color: hsl(25, 97%, 53%);
     border-radius: 28px;
-    display: inline-block;
+    display: block;
     cursor: pointer;
     color: #ffffff;
     font-family: 'Overpass', sans-serif;
     font-size: 15px;
-    padding: 8px 135px;
+    padding: 14px 0;
     text-decoration: none;
     letter-spacing: 2px;
     margin-top: 15px;
+    width: 100%;
 }
 
 .myButton:hover {
@@ -94,12 +95,27 @@ div.circle {
     vertical-align: middle;
 }
 
-.circle-4:hover {
+.circle-hover:hover {
     color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.circle-4:hover {
     background-color: hsl(217, 12%, 63%);
 }
 
 .circle-5:hover {
-    color: hsl(0, 0%, 100%);
     background-color: hsl(25, 97%, 53%);
 }
+
+
+/* @media (max-width: 1440px) {
+    #title .container-fluid {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+} */
