@@ -97,15 +97,17 @@ div.circle {
 
 .circle-hover:hover {
     color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 12%, 63%);
     cursor: pointer;
 }
 
-.circle-4:hover {
-    background-color: hsl(217, 12%, 63%);
+.circle-selected {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
 }
 
-.circle-5:hover {
-    background-color: hsl(25, 97%, 53%);
+.thanks-page {
+    display: none;
 }
 
 
