@@ -16,10 +16,11 @@ $('div[type="button"]').click(function() {
 })
 
 $('#submit').click(function() {
-    $('.stars-page').fadeOut(10);
-    $('#stars-count').text(`You selected ${userSelectedCircle} out of 5`);
-    $('.thanks-page').fadeIn(10);
-
+    if (userSelectedCircle) {
+        $('.stars-page').fadeOut(10);
+        $('#stars-count').text(`You selected ${userSelectedCircle} out of 5`);
+        $('.thanks-page').fadeIn(10);
+    }
 })
 
 

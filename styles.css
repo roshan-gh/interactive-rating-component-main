@@ -1,6 +1,5 @@
 body {
     background-color: hsl(216, 12%, 8%);
-    text-align: center;
 }
 
 h3 {
@@ -17,11 +16,6 @@ p {
     font-size: 15px;
 }
 
-h3,
-p {
-    text-align: left;
-}
-
 .circle {
     background: #3c4752;
     border-radius: 50%;
@@ -33,8 +27,8 @@ p {
 .circles {
     background: #3c4752;
     border-radius: 50%;
-    width: 45px;
-    height: 45px;
+    width: 13%;
+    height: 4%;
     display: inline-block;
     margin: 10px 0;
     position: relative;
@@ -54,7 +48,7 @@ p {
     background: hsl(213, 19%, 18%);
     border-radius: 10%;
     width: 25%;
-    height: 330px;
+    height: 30%;
     margin: 150px auto 0;
     padding: 30px;
     line-height: 1.5rem;
@@ -73,6 +67,7 @@ p {
     letter-spacing: 2px;
     margin-top: 15px;
     width: 100%;
+    text-align: center;
 }
 
 .myButton:hover {
@@ -108,16 +103,15 @@ div.circle {
 
 .thanks-page {
     display: none;
+    text-align: center;
 }
 
-
-/* @media (max-width: 1440px) {
-    #title .container-fluid {
-        text-align: center;
-    }
-    .title-image {
-        position: static;
-        transform: rotate(0);
+@media (max-width: 375px) {
+    .message-box {
         width: 50%;
+        height: 50%;
     }
-} */
+    .circles {
+        height: 2%;
+    }
+}
