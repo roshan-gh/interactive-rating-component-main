@@ -27,8 +27,8 @@ p {
 .circles {
     background: #3c4752;
     border-radius: 50%;
-    width: 13%;
-    height: 4%;
+    width: 40px;
+    height: 40px;
     display: inline-block;
     margin: 10px 0;
     position: relative;
@@ -47,9 +47,9 @@ p {
 .message-box {
     background: hsl(213, 19%, 18%);
     border-radius: 10%;
-    width: 25%;
-    height: 30%;
-    margin: 150px auto 0;
+    width: 350px;
+    height: 330px;
+    margin: 10% auto 0;
     padding: 30px;
     line-height: 1.5rem;
 }
@@ -106,12 +106,13 @@ div.circle {
     text-align: center;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
     .message-box {
-        width: 50%;
-        height: 50%;
+        width: 270px;
+        height: 300px;
+        margin-top: 30%;
     }
-    .circles {
-        height: 2%;
+    .stars-page {
+        line-height: 1rem;
     }
 }
