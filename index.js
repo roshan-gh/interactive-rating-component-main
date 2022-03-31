@@ -1,7 +1,7 @@
 let userSelectedCircle;
 let previousSelected;
 
-$('div[type="button"]').click(function() {
+$('.circles').click(function() {
     userSelectedCircle = this.id;
 
     if (userSelectedCircle !== previousSelected) {
@@ -35,4 +35,3 @@ function removeHighlight(button) {
     let selectedCircle = $(`#${button}`);
     selectedCircle.removeClass('circle-selected');
 }
-
