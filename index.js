@@ -35,3 +35,4 @@ function removeHighlight(button) {
     let selectedCircle = $(`#${button}`);
     selectedCircle.removeClass('circle-selected');
 }
+

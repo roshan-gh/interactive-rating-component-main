@@ -106,6 +106,24 @@ div.circle {
     text-align: center;
 }
 
+.frame {
+    background-color: #3c4752;
+    border-radius: 28px;
+    height: 30px;
+    text-align: center;
+    display: table;
+    padding: 10px 15px 0;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+#stars-count {
+    vertical-align: middle;
+    display: table-cell;
+    color: hsl(25, 97%, 53%);
+    letter-spacing: 1px;
+}
+
 @media (max-width: 500px) {
     .message-box {
         width: 270px;
